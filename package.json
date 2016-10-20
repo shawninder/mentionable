@@ -1,0 +1,51 @@
+{
+  "name": "mentionable",
+  "description": "Component that allows mentions",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawninder/mentionable.git"
+  },
+  "author": "Shawn Inder <shawninder@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawninder/mentionable/issues"
+  },
+  "scripts": {
+    "test": "node test | tap-difflet && standard",
+    "watch": "nodemon test | tap-difflet",
+    "docs": "node_modules/vigour-doc/bin/vdoc",
+    "watch-example": "budo ./example/index.js --css ./bundle.css --live"
+  },
+  "dependencies": {
+    "bubleify": "^0.6.0",
+    "lodash.trim": "^4.5.1",
+    "postcssify": "^2.5.0"
+  },
+  "devDependencies": {
+    "brisky": "^1.3.1",
+    "budo": "^8.2.2",
+    "standard": "^7.0.1",
+    "tape": "^4.6.2",
+    "vigour-state": "^4.0.0"
+  },
+  "homepage": "https://github.com/shawninder/mentionable",
+  "keywords": [
+    "exercise",
+    "mention",
+    "brisky"
+  ],
+  "contributors": [
+    "Shawn Inder <shawninder@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "browserify": {
+    "transform": [
+      "postcssify",
+      "bubleify"
+    ]
+  }
+}

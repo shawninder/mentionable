@@ -1,0 +1,38 @@
+:root {
+  --highlight: #ffe091;
+  --resultHeight: 48px;
+}
+
+.results {
+  border: 1px solid black;
+  position: absolute;
+  margin: 0;
+  padding-left: 0;
+}
+
+.result {
+  padding: 10px 20px 10px 58px;
+  list-style: none;
+  cursor: pointer;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: var(--resultHeight);
+}
+
+.result.selected {
+  background-color: var(--highlight);
+}
+
+.results:hover .selected {
+  background-color: white;
+}
+
+.result:hover, .result:hover.selected {
+  background-color: var(--highlight);
+}
+
+.result .username {
+  margin-left: 1em;
+  color: #666;
+}
