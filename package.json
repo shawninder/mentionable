@@ -15,7 +15,6 @@
   "scripts": {
     "test": "node test | tap-difflet && standard",
     "watch": "nodemon test | tap-difflet",
-    "docs": "node_modules/vigour-doc/bin/vdoc",
     "watch-example": "budo ./example/index.js --css ./bundle.css --live"
   },
   "dependencies": {
