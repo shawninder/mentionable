@@ -1,6 +1,6 @@
 {
   "name": "mentionable",
-  "description": "Component that allows mentions",
+  "description": "This brisky component allows an input to support mentions",
   "version": "1.0.0",
   "main": "lib/index.js",
   "repository": {
