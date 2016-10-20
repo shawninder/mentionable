@@ -4,7 +4,7 @@ This [brisky](https://www.npmjs.com/package/brisky) component allows an input to
 
 ### Warning
 
-I made it a programming exercise and as such it is not production ready
+This is brand new and was made very quickly as a programming exercise, DO NOT USE IN PRODUCTION!
 
 ## Install
 
