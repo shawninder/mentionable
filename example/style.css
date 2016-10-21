@@ -1,4 +1,6 @@
-textarea {
+.component>textarea, .component>input {
   width: 400px;
+}
+.component>textarea {
   height: 80px;
 }
