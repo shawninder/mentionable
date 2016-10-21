@@ -4,7 +4,7 @@
 }
 
 .results {
-  border: 1px solid black;
+  z-index: 1000;
   position: absolute;
   margin: 0;
   padding-left: 0;
