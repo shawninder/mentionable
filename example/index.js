@@ -21,9 +21,9 @@ const app = global.app = {
     mentionable
   },
   // Elements
-  data: {
+  component: {
     type: 'mentionable',
-    class: 'data',
+    class: 'component',
     input: {
       tag: 'textarea',
       props: {
