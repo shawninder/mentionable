@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "bubleify": "^0.6.0",
-    "lodash.trim": "^4.5.1",
     "postcssify": "^2.5.0"
   },
   "devDependencies": {
