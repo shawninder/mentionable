@@ -27,3 +27,12 @@ See [example](example/index.js)
 ## Manual Testing
 
 `npm watch-example`
+
+
+## Errors
+
+When usage is not respected, this component will immediately throw an error.
+
+Error | What it means | What to do
+---|---|---
+Missing `dataKey` | You're missing a field in your instance of a mentionable | See example
